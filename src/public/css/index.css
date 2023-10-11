@@ -31,6 +31,7 @@
 .create-form, .search-form {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     margin-bottom:15px;
     width: 70%;
     text-align: center;
@@ -78,7 +79,7 @@
 .todo-table {
     margin: 30px auto;
     width: 70%;
-    text-align: left;
+    text-align: center;
 }
 
 .todo-table__inner {
@@ -96,7 +97,7 @@
     font-weight: bold;
 }
 
-.todo-table__header-span{
+.todo-table__header-span {
     margin-right: 40%;
 }
 
@@ -112,7 +113,7 @@
 }
 
 .update-form__item {
-    width: 80%;
+    width: 40%;
     line-height: 50%;
 }
 
